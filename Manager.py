@@ -1,4 +1,5 @@
-from cmd.main_menu import Main_menu
+
+from screen.main_screen import Main_screen
 class Manager:
 
     def __init__(self):
@@ -6,4 +7,4 @@ class Manager:
     
 
     def views(self):
-        Main_menu()
+        Main_screen()
